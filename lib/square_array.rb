@@ -1,3 +1,6 @@
 def square_array(array)
-  # your code here
+  for i in (0...array.length)
+    array[i] **= 2
+  end
+  return array
 end
